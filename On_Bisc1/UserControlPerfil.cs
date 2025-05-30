@@ -47,11 +47,66 @@ namespace On_Bisc1
         {
             get { return PictureBoxPerfil; }
         }
-       
+
+        private void CarregarFotoPerfil()
+        {
+            try
+            {
+                using (var conn = Conexao.Conectar())
+                {
+                    string sql = "SELECT foto_perfil FROM usuario WHERE id = @id";
+                    using (var cmd = new MySqlCommand(sql, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@id", SessaoUsuario.UsuarioId);
+
+                        using (var reader = cmd.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                if (!reader.IsDBNull(0))
+                                {
+                                    byte[] fotoBytes = (byte[])reader["foto_perfil"];
+                                    using (MemoryStream ms = new MemoryStream(fotoBytes))
+                                    {
+                                        PictureBoxPerfil.Image = Image.FromStream(ms);
+                                        PictureBoxPerfil.SizeMode = PictureBoxSizeMode.Zoom;
+                                    }
+                                }
+                                else
+                                {
+                                    reader.Close(); // fecha o reader atual
+                                    string sqlPadrao = "SELECT foto FROM imagem_padrao LIMIT 1";
+                                    using (var cmdPadrao = new MySqlCommand(sqlPadrao, conn))
+                                    {
+                                        using (var readerPadrao = cmdPadrao.ExecuteReader())
+                                        {
+                                            if (readerPadrao.Read())
+                                            {
+                                                byte[] imgBytes = (byte[])readerPadrao["foto"];
+                                                using (MemoryStream ms = new MemoryStream(imgBytes))
+                                                {
+                                                    PictureBoxPerfil.Image = Image.FromStream(ms);
+                                                    PictureBoxPerfil.SizeMode = PictureBoxSizeMode.Zoom;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao carregar foto de perfil: " + ex.Message);
+            }
+        }
 
 
         private void userControlPerfil_Load(object sender, EventArgs e)
         {
+            CarregarFotoPerfil();
             using (var conn = Conexao.Conectar())
             {
                 string sql = @"SELECT id, nome, provincia, municipio, bairro, oficio FROM usuario WHERE id = @id";
@@ -213,7 +268,7 @@ namespace On_Bisc1
         private void BotãoEditarPerfil_Click(object sender, EventArgs e)
         {
             editarperfil editarPerfil = new editarperfil();
-            editarPerfil.userId = SessaoUsuario.UsuarioId; // Pega o ID da sessão atual
+            editarPerfil.userId = SessaoUsuario.UsuarioId;
 
             if (editarPerfil.ShowDialog() == DialogResult.OK)
             {
@@ -223,10 +278,17 @@ namespace On_Bisc1
                 string[] oficiosSelecionados = editarPerfil.SelecaoOfi.Text.Split(',');
                 LabelOficio.Text = oficiosSelecionados.Length > 0 ? oficiosSelecionados[0] : "";
 
-                userControlSobrePrestador.textBoxBio.Text = editarPerfil.NovaBiografia;
+                if (userControlSobrePrestador != null && userControlSobrePrestador.textBoxBio != null)
+                {
+                    userControlSobrePrestador.textBoxBio.Text = editarPerfil.NovaBiografia;
+                }
+                else
+                {
+                    MessageBox.Show("Erro ao atualizar biografia.");
+                }
             }
-
         }
-     }
+
+    }
 
 }

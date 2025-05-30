@@ -13,8 +13,8 @@ namespace On_Bisc1
 {
     public partial class UserControlSobrePrestador : UserControl
     {
-        private TextBox txtBiografia;
-        private string textoPadrao = "ADICIONE AQUI DETALHES SOBRE O SEU OFÍCIO";
+        public TextBox txtBiografia;
+        public string textoPadrao = "ADICIONE AQUI DETALHES SOBRE O SEU OFÍCIO";
 
         public UserControlSobrePrestador()
         {

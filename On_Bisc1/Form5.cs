@@ -346,6 +346,11 @@ namespace On_Bisc1
         {
             AlternarUserControl(userControlChat, btnChat);
         }
+
+        private void userControlServicos1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
