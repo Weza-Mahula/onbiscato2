@@ -250,7 +250,7 @@ namespace On_Bisc1
 
         private void guna2Button7_Click(object sender, EventArgs e)
         {
-            FormNovaSolicitacao novaSolicitacao = new FormNovaSolicitacao();
+            NovaSolitaçãoV2 novaSolicitacao = new NovaSolitaçãoV2();
             DialogResult resultado = novaSolicitacao.ShowDialog();
 
             if (resultado == DialogResult.OK)
