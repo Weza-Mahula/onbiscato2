@@ -44,8 +44,6 @@
             this.btnChat = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomGradientPanel8 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.btnPerfil = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2CustomGradientPanel7 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.btnServicos = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomGradientPanel4 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.btnMeusPedidos = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
@@ -59,7 +57,6 @@
             this.guna2CustomGradientPanel6.SuspendLayout();
             this.guna2CustomGradientPanel9.SuspendLayout();
             this.guna2CustomGradientPanel8.SuspendLayout();
-            this.guna2CustomGradientPanel7.SuspendLayout();
             this.guna2CustomGradientPanel4.SuspendLayout();
             this.guna2CustomGradientPanel2.SuspendLayout();
             this.SuspendLayout();
@@ -71,7 +68,7 @@
             this.Prestador.ForeColor = System.Drawing.Color.CornflowerBlue;
             this.Prestador.Location = new System.Drawing.Point(383, 86);
             this.Prestador.Name = "Prestador";
-            this.Prestador.Size = new System.Drawing.Size(17, 6);
+            this.Prestador.Size = new System.Drawing.Size(76, 25);
             this.Prestador.TabIndex = 0;
             this.Prestador.Text = "Prestador";
             // 
@@ -132,7 +129,7 @@
             this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.guna2HtmlLabel6.Location = new System.Drawing.Point(43, 23);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(21, 6);
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(164, 39);
             this.guna2HtmlLabel6.TabIndex = 11;
             this.guna2HtmlLabel6.Text = "ON BISCATO";
             // 
@@ -206,7 +203,6 @@
             this.guna2CustomGradientPanel6.BorderRadius = 20;
             this.guna2CustomGradientPanel6.Controls.Add(this.guna2CustomGradientPanel9);
             this.guna2CustomGradientPanel6.Controls.Add(this.guna2CustomGradientPanel8);
-            this.guna2CustomGradientPanel6.Controls.Add(this.guna2CustomGradientPanel7);
             this.guna2CustomGradientPanel6.Controls.Add(this.guna2CustomGradientPanel4);
             this.guna2CustomGradientPanel6.Controls.Add(this.guna2CustomGradientPanel2);
             this.guna2CustomGradientPanel6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(66)))), ((int)(((byte)(80)))));
@@ -267,7 +263,7 @@
             this.btnPerfil.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnPerfil.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnPerfil.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(66)))), ((int)(((byte)(80)))));
-            this.btnPerfil.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPerfil.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
             this.btnPerfil.ForeColor = System.Drawing.Color.White;
             this.btnPerfil.Image = ((System.Drawing.Image)(resources.GetObject("btnPerfil.Image")));
             this.btnPerfil.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -279,37 +275,6 @@
             this.btnPerfil.Text = "Perfil";
             this.btnPerfil.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnPerfil.Click += new System.EventHandler(this.btnPerfil_Click);
-            // 
-            // guna2CustomGradientPanel7
-            // 
-            this.guna2CustomGradientPanel7.Controls.Add(this.btnServicos);
-            this.guna2CustomGradientPanel7.Location = new System.Drawing.Point(0, 248);
-            this.guna2CustomGradientPanel7.Name = "guna2CustomGradientPanel7";
-            this.guna2CustomGradientPanel7.Size = new System.Drawing.Size(241, 59);
-            this.guna2CustomGradientPanel7.TabIndex = 12;
-            // 
-            // btnServicos
-            // 
-            this.btnServicos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(66)))), ((int)(((byte)(80)))));
-            this.btnServicos.BorderRadius = 20;
-            this.btnServicos.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnServicos.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnServicos.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnServicos.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnServicos.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnServicos.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(66)))), ((int)(((byte)(80)))));
-            this.btnServicos.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnServicos.ForeColor = System.Drawing.Color.White;
-            this.btnServicos.Image = ((System.Drawing.Image)(resources.GetObject("btnServicos.Image")));
-            this.btnServicos.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnServicos.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnServicos.Location = new System.Drawing.Point(0, 0);
-            this.btnServicos.Name = "btnServicos";
-            this.btnServicos.Size = new System.Drawing.Size(241, 59);
-            this.btnServicos.TabIndex = 3;
-            this.btnServicos.Text = "Serviços";
-            this.btnServicos.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnServicos.Click += new System.EventHandler(this.btnServicos_Click);
             // 
             // guna2CustomGradientPanel4
             // 
@@ -381,7 +346,7 @@
             // 
             // DashboardPrestador
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(124)))), ((int)(((byte)(139)))));
             this.ClientSize = new System.Drawing.Size(1284, 755);
@@ -405,7 +370,6 @@
             this.guna2CustomGradientPanel6.ResumeLayout(false);
             this.guna2CustomGradientPanel9.ResumeLayout(false);
             this.guna2CustomGradientPanel8.ResumeLayout(false);
-            this.guna2CustomGradientPanel7.ResumeLayout(false);
             this.guna2CustomGradientPanel4.ResumeLayout(false);
             this.guna2CustomGradientPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -428,8 +392,6 @@
         private Guna.UI2.WinForms.Guna2Button btnChat;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel8;
         private Guna.UI2.WinForms.Guna2Button btnPerfil;
-        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel7;
-        private Guna.UI2.WinForms.Guna2Button btnServicos;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel4;
         private Guna.UI2.WinForms.Guna2Button btnMeusPedidos;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel2;

@@ -170,7 +170,7 @@ namespace On_Bisc1
     };
 
             Guna2Button[] todosBotoes = {
-        btnHome, btnMeusPedidos, btnServicos, btnPerfil, btnChat
+      //  btnHome, btnMeusPedidos, btnServicos, btnPerfil, btnChat
     };
 
             Color corSelecionado = Color.FromArgb(0, 109, 119); // fundo selecionado
@@ -334,7 +334,7 @@ namespace On_Bisc1
 
         private void btnServicos_Click(object sender, EventArgs e)
         {
-            AlternarUserControl(userControlServicos, btnServicos);
+           // AlternarUserControl(userControlServicos, btnServicos);
         }
 
         private void btnPerfil_Click(object sender, EventArgs e)
