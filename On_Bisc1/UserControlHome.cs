@@ -16,5 +16,10 @@ namespace On_Bisc1
         {
             InitializeComponent();
         }
+
+        private void userControlHome_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

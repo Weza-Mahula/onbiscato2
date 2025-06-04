@@ -68,7 +68,7 @@
             this.Prestador.ForeColor = System.Drawing.Color.CornflowerBlue;
             this.Prestador.Location = new System.Drawing.Point(383, 86);
             this.Prestador.Name = "Prestador";
-            this.Prestador.Size = new System.Drawing.Size(76, 25);
+            this.Prestador.Size = new System.Drawing.Size(17, 6);
             this.Prestador.TabIndex = 0;
             this.Prestador.Text = "Prestador";
             // 
@@ -129,7 +129,7 @@
             this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.guna2HtmlLabel6.Location = new System.Drawing.Point(43, 23);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(164, 39);
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(21, 6);
             this.guna2HtmlLabel6.TabIndex = 11;
             this.guna2HtmlLabel6.Text = "ON BISCATO";
             // 
@@ -346,7 +346,7 @@
             // 
             // DashboardPrestador
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(124)))), ((int)(((byte)(139)))));
             this.ClientSize = new System.Drawing.Size(1284, 755);

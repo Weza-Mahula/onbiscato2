@@ -37,6 +37,7 @@
             this.BackColor = System.Drawing.Color.CornflowerBlue;
             this.Name = "userControlHome";
             this.Size = new System.Drawing.Size(831, 568);
+            this.Load += new System.EventHandler(this.userControlHome_Load);
             this.ResumeLayout(false);
 
         }

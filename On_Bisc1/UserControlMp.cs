@@ -35,6 +35,8 @@ namespace On_Bisc1
                 dgv.Columns["id"].DataPropertyName = "id";
 
                 dgv.Columns.Add("cliente", "Cliente");
+   
+                
                 dgv.Columns["cliente"].DataPropertyName = "cliente";
 
                 dgv.Columns.Add("data_solicitacao", "Data");

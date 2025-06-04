@@ -278,6 +278,7 @@ namespace On_Bisc1
                 string[] oficiosSelecionados = editarPerfil.SelecaoOfi.Text.Split(',');
                 LabelOficio.Text = oficiosSelecionados.Length > 0 ? oficiosSelecionados[0] : "";
 
+
                 if (userControlSobrePrestador != null && userControlSobrePrestador.textBoxBio != null)
                 {
                     userControlSobrePrestador.textBoxBio.Text = editarPerfil.NovaBiografia;
@@ -289,6 +290,10 @@ namespace On_Bisc1
             }
         }
 
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 
 }
