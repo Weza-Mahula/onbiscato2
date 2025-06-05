@@ -196,7 +196,9 @@ namespace On_Bisc1
                                 }
                                 else if (tipo == "prestador")
                                 {
-                                    new DashboardPrestador().Show();
+                                    int id = Convert.ToInt32(reader["id"]); // ou como você recupera o ID
+                                    string nome = reader["nome"].ToString();
+                                    new DashboardPrestador(id, nome).Show();
                                 }
                                 else if (tipo == "cliente")
                                 {

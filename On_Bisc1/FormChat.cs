@@ -223,6 +223,21 @@ namespace On_Bisc1
         {
 
         }
+
+        private void pnlMensagens_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pnlInput_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pnlHeader_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
 

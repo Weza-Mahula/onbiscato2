@@ -41,7 +41,6 @@
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2CustomGradientPanel6 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2CustomGradientPanel9 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.btnChat = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomGradientPanel8 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.btnPerfil = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomGradientPanel4 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
@@ -49,6 +48,8 @@
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.pageSetupDialog1 = new System.Windows.Forms.PageSetupDialog();
+            this.btnChat = new Guna.UI2.WinForms.Guna2Button();
+            this.btnTerminarSessao = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFoto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
@@ -201,6 +202,7 @@
             // guna2CustomGradientPanel6
             // 
             this.guna2CustomGradientPanel6.BorderRadius = 20;
+            this.guna2CustomGradientPanel6.Controls.Add(this.btnChat);
             this.guna2CustomGradientPanel6.Controls.Add(this.guna2CustomGradientPanel9);
             this.guna2CustomGradientPanel6.Controls.Add(this.guna2CustomGradientPanel8);
             this.guna2CustomGradientPanel6.Controls.Add(this.guna2CustomGradientPanel4);
@@ -216,34 +218,11 @@
             // 
             // guna2CustomGradientPanel9
             // 
-            this.guna2CustomGradientPanel9.Controls.Add(this.btnChat);
+            this.guna2CustomGradientPanel9.Controls.Add(this.btnTerminarSessao);
             this.guna2CustomGradientPanel9.Location = new System.Drawing.Point(3, 408);
             this.guna2CustomGradientPanel9.Name = "guna2CustomGradientPanel9";
             this.guna2CustomGradientPanel9.Size = new System.Drawing.Size(241, 65);
             this.guna2CustomGradientPanel9.TabIndex = 14;
-            // 
-            // btnChat
-            // 
-            this.btnChat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(66)))), ((int)(((byte)(80)))));
-            this.btnChat.BorderRadius = 20;
-            this.btnChat.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnChat.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnChat.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnChat.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnChat.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnChat.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(66)))), ((int)(((byte)(80)))));
-            this.btnChat.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.btnChat.ForeColor = System.Drawing.Color.White;
-            this.btnChat.Image = ((System.Drawing.Image)(resources.GetObject("btnChat.Image")));
-            this.btnChat.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnChat.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnChat.Location = new System.Drawing.Point(0, 0);
-            this.btnChat.Name = "btnChat";
-            this.btnChat.Size = new System.Drawing.Size(241, 65);
-            this.btnChat.TabIndex = 4;
-            this.btnChat.Text = "Chat";
-            this.btnChat.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnChat.Click += new System.EventHandler(this.btnChat_Click);
             // 
             // guna2CustomGradientPanel8
             // 
@@ -294,7 +273,7 @@
             this.btnMeusPedidos.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnMeusPedidos.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnMeusPedidos.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(66)))), ((int)(((byte)(80)))));
-            this.btnMeusPedidos.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMeusPedidos.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
             this.btnMeusPedidos.ForeColor = System.Drawing.Color.White;
             this.btnMeusPedidos.Image = ((System.Drawing.Image)(resources.GetObject("btnMeusPedidos.Image")));
             this.btnMeusPedidos.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -344,6 +323,52 @@
             this.btnHome.UseTransparentBackground = true;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
+            // btnChat
+            // 
+            this.btnChat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(66)))), ((int)(((byte)(80)))));
+            this.btnChat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnChat.BorderRadius = 20;
+            this.btnChat.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnChat.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnChat.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnChat.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnChat.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(66)))), ((int)(((byte)(80)))));
+            this.btnChat.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
+            this.btnChat.ForeColor = System.Drawing.Color.White;
+            this.btnChat.Image = ((System.Drawing.Image)(resources.GetObject("btnChat.Image")));
+            this.btnChat.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnChat.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnChat.Location = new System.Drawing.Point(1, 251);
+            this.btnChat.Name = "btnChat";
+            this.btnChat.Size = new System.Drawing.Size(240, 74);
+            this.btnChat.TabIndex = 15;
+            this.btnChat.Text = "Chat";
+            this.btnChat.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnChat.Click += new System.EventHandler(this.guna2Button1_Click_2);
+            // 
+            // btnTerminarSessao
+            // 
+            this.btnTerminarSessao.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(66)))), ((int)(((byte)(80)))));
+            this.btnTerminarSessao.BorderRadius = 20;
+            this.btnTerminarSessao.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnTerminarSessao.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnTerminarSessao.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnTerminarSessao.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnTerminarSessao.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnTerminarSessao.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(66)))), ((int)(((byte)(80)))));
+            this.btnTerminarSessao.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
+            this.btnTerminarSessao.ForeColor = System.Drawing.Color.White;
+            this.btnTerminarSessao.Image = ((System.Drawing.Image)(resources.GetObject("btnTerminarSessao.Image")));
+            this.btnTerminarSessao.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnTerminarSessao.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnTerminarSessao.Location = new System.Drawing.Point(0, 0);
+            this.btnTerminarSessao.Name = "btnTerminarSessao";
+            this.btnTerminarSessao.Size = new System.Drawing.Size(241, 65);
+            this.btnTerminarSessao.TabIndex = 4;
+            this.btnTerminarSessao.Text = "Terminar Sessão";
+            this.btnTerminarSessao.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnTerminarSessao.Click += new System.EventHandler(this.btnChat_Click);
+            // 
             // DashboardPrestador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
@@ -389,7 +414,6 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel6;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel9;
-        private Guna.UI2.WinForms.Guna2Button btnChat;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel8;
         private Guna.UI2.WinForms.Guna2Button btnPerfil;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel4;
@@ -399,5 +423,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel labelID;
         private Guna.UI2.WinForms.Guna2CirclePictureBox pictureBoxFoto;
         private System.Windows.Forms.PageSetupDialog pageSetupDialog1;
+        private Guna.UI2.WinForms.Guna2Button btnChat;
+        private Guna.UI2.WinForms.Guna2Button btnTerminarSessao;
     }
 }

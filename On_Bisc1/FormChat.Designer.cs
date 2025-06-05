@@ -37,6 +37,7 @@
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.menuLateral = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
@@ -50,16 +51,15 @@
             this.btnEnviar = new Guna.UI2.WinForms.Guna2Button();
             this.txtMensagem = new Guna.UI2.WinForms.Guna2TextBox();
             this.pnlMensagens = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.pnlTopLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.guna2CustomGradientPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.menuLateral.SuspendLayout();
+            this.guna2CustomGradientPanel1.SuspendLayout();
             this.pnlHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             this.pnlInput.SuspendLayout();
-            this.guna2CustomGradientPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlTopLogo
@@ -72,7 +72,7 @@
             this.pnlTopLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTopLogo.Location = new System.Drawing.Point(60, 60);
             this.pnlTopLogo.Name = "pnlTopLogo";
-            this.pnlTopLogo.Size = new System.Drawing.Size(1500, 80);
+            this.pnlTopLogo.Size = new System.Drawing.Size(1180, 80);
             this.pnlTopLogo.TabIndex = 11;
             // 
             // BemVindo
@@ -82,7 +82,7 @@
             this.BemVindo.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.BemVindo.Location = new System.Drawing.Point(1024, 25);
             this.BemVindo.Name = "BemVindo";
-            this.BemVindo.Size = new System.Drawing.Size(231, 32);
+            this.BemVindo.Size = new System.Drawing.Size(37, 6);
             this.BemVindo.TabIndex = 12;
             this.BemVindo.Text = "Bem-Vindo, Cliente😊";
             // 
@@ -93,7 +93,7 @@
             this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.guna2HtmlLabel6.Location = new System.Drawing.Point(43, 23);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(135, 32);
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(21, 6);
             this.guna2HtmlLabel6.TabIndex = 11;
             this.guna2HtmlLabel6.Text = "ON BISCATO";
             // 
@@ -180,6 +180,19 @@
             this.menuLateral.Name = "menuLateral";
             this.menuLateral.Size = new System.Drawing.Size(241, 594);
             this.menuLateral.TabIndex = 12;
+            // 
+            // guna2CustomGradientPanel1
+            // 
+            this.guna2CustomGradientPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(109)))), ((int)(((byte)(119)))));
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2Button4);
+            this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(109)))), ((int)(((byte)(119)))));
+            this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(109)))), ((int)(((byte)(119)))));
+            this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(109)))), ((int)(((byte)(119)))));
+            this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(109)))), ((int)(((byte)(119)))));
+            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(3, 379);
+            this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(238, 66);
+            this.guna2CustomGradientPanel1.TabIndex = 7;
             // 
             // guna2Button4
             // 
@@ -318,8 +331,9 @@
             this.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlHeader.Location = new System.Drawing.Point(301, 140);
             this.pnlHeader.Name = "pnlHeader";
-            this.pnlHeader.Size = new System.Drawing.Size(1259, 50);
+            this.pnlHeader.Size = new System.Drawing.Size(939, 50);
             this.pnlHeader.TabIndex = 13;
+            this.pnlHeader.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlHeader_Paint);
             // 
             // guna2PictureBox3
             // 
@@ -339,7 +353,7 @@
             this.lblSolicitacao.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(66)))), ((int)(((byte)(80)))));
             this.lblSolicitacao.Location = new System.Drawing.Point(69, 12);
             this.lblSolicitacao.Name = "lblSolicitacao";
-            this.lblSolicitacao.Size = new System.Drawing.Size(203, 32);
+            this.lblSolicitacao.Size = new System.Drawing.Size(956, 135);
             this.lblSolicitacao.TabIndex = 0;
             this.lblSolicitacao.Text = "Chat Solicitações ID:";
             this.lblSolicitacao.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -351,8 +365,9 @@
             this.pnlInput.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.pnlInput.Location = new System.Drawing.Point(301, 657);
             this.pnlInput.Name = "pnlInput";
-            this.pnlInput.Size = new System.Drawing.Size(1259, 77);
+            this.pnlInput.Size = new System.Drawing.Size(939, 77);
             this.pnlInput.TabIndex = 14;
+            this.pnlInput.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlInput_Paint);
             // 
             // btnEnviar
             // 
@@ -367,7 +382,7 @@
             this.btnEnviar.ForeColor = System.Drawing.Color.White;
             this.btnEnviar.Image = ((System.Drawing.Image)(resources.GetObject("btnEnviar.Image")));
             this.btnEnviar.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnEnviar.Location = new System.Drawing.Point(1193, 0);
+            this.btnEnviar.Location = new System.Drawing.Point(873, 0);
             this.btnEnviar.Margin = new System.Windows.Forms.Padding(5);
             this.btnEnviar.Name = "btnEnviar";
             this.btnEnviar.Size = new System.Drawing.Size(66, 77);
@@ -396,7 +411,7 @@
             this.txtMensagem.PlaceholderForeColor = System.Drawing.Color.DarkGray;
             this.txtMensagem.PlaceholderText = "Digite a sua mensagem...";
             this.txtMensagem.SelectedText = "";
-            this.txtMensagem.Size = new System.Drawing.Size(1259, 77);
+            this.txtMensagem.Size = new System.Drawing.Size(939, 77);
             this.txtMensagem.TabIndex = 0;
             // 
             // pnlMensagens
@@ -410,28 +425,16 @@
             this.pnlMensagens.FillColor4 = System.Drawing.Color.WhiteSmoke;
             this.pnlMensagens.Location = new System.Drawing.Point(301, 190);
             this.pnlMensagens.Name = "pnlMensagens";
-            this.pnlMensagens.Size = new System.Drawing.Size(1259, 467);
+            this.pnlMensagens.Size = new System.Drawing.Size(939, 467);
             this.pnlMensagens.TabIndex = 15;
-            // 
-            // guna2CustomGradientPanel1
-            // 
-            this.guna2CustomGradientPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(109)))), ((int)(((byte)(119)))));
-            this.guna2CustomGradientPanel1.Controls.Add(this.guna2Button4);
-            this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(109)))), ((int)(((byte)(119)))));
-            this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(109)))), ((int)(((byte)(119)))));
-            this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(109)))), ((int)(((byte)(119)))));
-            this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(109)))), ((int)(((byte)(119)))));
-            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(3, 379);
-            this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(238, 66);
-            this.guna2CustomGradientPanel1.TabIndex = 7;
+            this.pnlMensagens.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlMensagens_Paint);
             // 
             // FormChat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(124)))), ((int)(((byte)(139)))));
-            this.ClientSize = new System.Drawing.Size(1620, 794);
+            this.ClientSize = new System.Drawing.Size(1300, 794);
             this.Controls.Add(this.pnlMensagens);
             this.Controls.Add(this.pnlInput);
             this.Controls.Add(this.pnlHeader);
@@ -448,11 +451,11 @@
             this.guna2CustomGradientPanel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.menuLateral.ResumeLayout(false);
+            this.guna2CustomGradientPanel1.ResumeLayout(false);
             this.pnlHeader.ResumeLayout(false);
             this.pnlHeader.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             this.pnlInput.ResumeLayout(false);
-            this.guna2CustomGradientPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

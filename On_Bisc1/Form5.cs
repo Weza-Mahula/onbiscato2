@@ -22,6 +22,9 @@ namespace On_Bisc1
         userControlPerfil userControlPerfil;
         userControlChat userControlChat;
         int idUsuario;
+        int idPrestador;
+        string nomePrestador;
+        private int prestadorId;
         public PictureBox FotoPrincipal
         {
             get { return pictureBoxFoto; }
@@ -34,15 +37,21 @@ namespace On_Bisc1
             }
         }
 
-        public DashboardPrestador()
+        public DashboardPrestador(int id, string nome)
         {
             InitializeComponent();
+            idPrestador = id;
+            this.nomePrestador = nome;
             idUsuario = SessaoUsuario.UsuarioId;
             userControlHome = new userControlHome();
             userControlMP = new userControlMP();
             userControlServicos = new userControlServicos();
             userControlPerfil = new userControlPerfil();
-            userControlChat = new userControlChat();
+            //int solicitacaoId = Convert.ToInt32(DataPend.SelectedRows[0].Cells["id"].Value);
+
+
+            //userControlChat chat = new userControlChat(solicitacaoId, prestadorId, nomePrestador); // ✅ certo
+
 
             // Adiciona ao formulário
             AdicionarUserControls();
@@ -56,7 +65,6 @@ namespace On_Bisc1
             {
         userControlHome,
         userControlMP,
-        userControlServicos,
         userControlPerfil,
         userControlChat
             };
@@ -65,12 +73,13 @@ namespace On_Bisc1
             {
                 uc.Size = new Size(920, 603);
                 uc.Location = new Point(304, 134);
-                uc.Margin = new Padding(3, 3, 3, 3);
-                uc.Visible = false; // Inicialmente escondido
+                uc.Margin = new Padding(3);
+                uc.Visible = false;
                 this.Controls.Add(uc);
             }
         }
-        
+
+
         private void ExibirFotoGrande()
         {
             if (pictureBoxFoto.Image != null)
@@ -166,23 +175,27 @@ namespace On_Bisc1
         private void AlternarUserControl(UserControl controleSelecionado, Guna2Button botaoClicado)
         {
             UserControl[] todosUserControls = {
-        userControlHome, userControlMP, userControlServicos, userControlPerfil, userControlChat
+        userControlHome,
+        userControlMP,
+        userControlPerfil,
+        userControlChat
     };
 
             Guna2Button[] todosBotoes = {
-      //  btnHome, btnMeusPedidos, btnServicos, btnPerfil, btnChat
+        btnHome,
+        btnMeusPedidos,
+        btnPerfil,
+        btnChat
     };
 
-            Color corSelecionado = Color.FromArgb(0, 109, 119); // fundo selecionado
-            Color corNaoSelecionado = Color.FromArgb(0, 66, 80); // fundo padrão
+            Color corSelecionado = Color.FromArgb(0, 109, 119);
+            Color corNaoSelecionado = Color.FromArgb(0, 66, 80);
             Color textoBranco = Color.White;
 
             for (int i = 0; i < todosBotoes.Length; i++)
             {
                 todosBotoes[i].FillColor = corNaoSelecionado;
                 todosBotoes[i].ForeColor = textoBranco;
-
-                // Limpa bordas e hover também
                 todosBotoes[i].BorderColor = corNaoSelecionado;
                 todosBotoes[i].HoverState.FillColor = corNaoSelecionado;
                 todosBotoes[i].PressedColor = corNaoSelecionado;
@@ -190,7 +203,6 @@ namespace On_Bisc1
                 todosBotoes[i].CustomBorderColor = corNaoSelecionado;
             }
 
-            // Ativa o botão clicado
             botaoClicado.CheckedState.FillColor = corSelecionado;
             botaoClicado.CheckedState.ForeColor = textoBranco;
             botaoClicado.HoverState.ForeColor = textoBranco;
@@ -203,7 +215,6 @@ namespace On_Bisc1
             botaoClicado.DisabledState.FillColor = corSelecionado;
             botaoClicado.CustomBorderColor = corSelecionado;
 
-            // Exibe apenas o UserControl selecionado
             foreach (var uc in todosUserControls)
                 uc.Visible = false;
 
@@ -215,11 +226,29 @@ namespace On_Bisc1
 
 
 
+        private void ReposicionarBotoes()
+        {
+            int x = 20; // distância da esquerda
+            int y = 100; // posição inicial vertical
+            int espacamento = 10;
+
+            btnHome.Location = new Point(x, y);
+            y += btnHome.Height + espacamento;
+
+            btnMeusPedidos.Location = new Point(x, y);
+            y += btnMeusPedidos.Height + espacamento;
+
+            btnPerfil.Location = new Point(x, y);
+            y += btnPerfil.Height + espacamento;
+
+            btnTerminarSessao.Location = new Point(x, y);
+        }
+
 
 
         private void DashboardPrestador_Load(object sender, EventArgs e)
         {
-
+            ReposicionarBotoes();
             AlternarUserControl(userControlHome, btnHome);
             CarregarFotoPerfil(SessaoUsuario.UsuarioId, pictureBoxFoto);
             labelNomeP.Text = $"Bem-vindo, {SessaoUsuario.TipoUsuario} {SessaoUsuario.Nome.Split(' ')[0]}";
@@ -344,14 +373,58 @@ namespace On_Bisc1
 
         private void btnChat_Click(object sender, EventArgs e)
         {
-            AlternarUserControl(userControlChat, btnChat);
+            if (MessageBox.Show("Deseja realmente terminar a sessão?", "Confirmação", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            { 
+                Form1 form = new Form1();
+                form.Show();
+                this.Hide();
+            }
         }
+
 
         private void userControlServicos1_Load(object sender, EventArgs e)
         {
 
         }
+
+       /*public void guna2Button1_Click_2(object sender, EventArgs e)
+         {
+            if (DataPend.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Selecione uma solicitação para abrir o chat.");
+                return;
+            }
+
+            int solicitacaoId = Convert.ToInt32(Datapend.SelectedRows[0].Cells["id"].Value);
+
+            // Substitua pelas variáveis reais do prestador logado:
+            int prestadorId = idPrestador;
+            // PASSO: Obter o nome do prestador a partir do banco ou sessão
+            string nomePrestador = "Nome do Prestador"; // ← Substitui isso com o valor real
+            //lblNome.Text = nomePrestador;
+
+
+
+            userControlChat chat = new userControlChat(solicitacaoId, prestadorId, nomePrestador)
+            {
+                Name = "chatAtivo",
+                Location = new Point(304, 134),
+                Size = new Size(920, 603),
+                Margin = new Padding(3)
+            };
+
+            // Remove qualquer chat antigo
+            Control antigo = this.Controls.Find("chatAtivo", true).FirstOrDefault();
+            if (antigo != null)
+                this.Controls.Remove(antigo);
+
+            this.Controls.Add(chat);
+            chat.BringToFront();
+
+        }*/
+
     }
 }
+
 
 

@@ -22,30 +22,79 @@ namespace On_Bisc1
         {
 
         }
+        private void DataGridView_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            var dgv = sender as DataGridView;
+
+            if (dgv.Columns[e.ColumnIndex].Name == "status" && e.Value != null)
+            {
+                string status = e.Value.ToString();
+                if (status == "Aceite")
+                    e.CellStyle.ForeColor = Color.Green;
+                else if (status == "Negado")
+                    e.CellStyle.ForeColor = Color.Red;
+                else if (status == "Pendente")
+                    e.CellStyle.ForeColor = Color.Goldenrod;
+            }
+        }
+
         private void AjustarColunas()
         {
-            string[] colunas = { "id", "cliente", "data_solicitacao", "status" };
-
-            foreach (var dgv in new[] { Datapend, historico })
+            foreach (var dgv in new[] { DataPend, historico })
             {
                 dgv.AutoGenerateColumns = false;
                 dgv.Columns.Clear();
 
-                dgv.Columns.Add("id", "ID");
-                dgv.Columns["id"].DataPropertyName = "id";
+                dgv.Columns.Add(new DataGridViewTextBoxColumn()
+                {
+                    Name = "id",
+                    HeaderText = "ID",
+                    DataPropertyName = "id",
+                    Visible = false
+                });
 
-                dgv.Columns.Add("cliente", "Cliente");
-   
-                
-                dgv.Columns["cliente"].DataPropertyName = "cliente";
+                dgv.Columns.Add(new DataGridViewTextBoxColumn()
+                {
+                    Name = "cliente",
+                    HeaderText = "Cliente",
+                    DataPropertyName = "cliente",
+                    Width = 200
+                });
 
-                dgv.Columns.Add("data_solicitacao", "Data");
-                dgv.Columns["data_solicitacao"].DataPropertyName = "data_solicitacao";
+                dgv.Columns.Add(new DataGridViewTextBoxColumn()
+                {
+                    Name = "data_solicitacao",
+                    HeaderText = "Data",
+                    DataPropertyName = "data_solicitacao",
+                    Width = 150
+                });
 
-                dgv.Columns.Add("status", "Status");
-                dgv.Columns["status"].DataPropertyName = "status";
+                dgv.Columns.Add(new DataGridViewTextBoxColumn()
+                {
+                    Name = "status",
+                    HeaderText = "Status",
+                    DataPropertyName = "status",
+                    Width = 100
+                });
+
+                dgv.Columns.Add(new DataGridViewImageColumn()
+                {
+                    Name = "imagem",
+                    HeaderText = "Imagem",
+                    DataPropertyName = "imagem",
+                    Visible = false
+                });
+
+                dgv.RowTemplate.Height = 30;
+                dgv.ColumnHeadersHeight = 35;
+                dgv.EnableHeadersVisualStyles = false;
+                dgv.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(0, 66, 80);
+                dgv.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
+                dgv.ColumnHeadersDefaultCellStyle.Font = new Font("Segoe UI", 10, FontStyle.Bold);
+                dgv.DefaultCellStyle.Font = new Font("Segoe UI", 10);
             }
         }
+
 
         private void CarregarSolicitacoes()
         {
@@ -65,7 +114,7 @@ namespace On_Bisc1
                     {
                         DataTable dt = new DataTable();
                         da.Fill(dt);
-                        Datapend.DataSource = dt;
+                        DataPend.DataSource = dt;
                     }
                 }
 
@@ -94,13 +143,13 @@ namespace On_Bisc1
 
         private void AtualizarStatus(string novoStatus)
         {
-            if (Datapend.SelectedRows.Count == 0)
+            if (DataPend.SelectedRows.Count == 0)
             {
                 MessageBox.Show("Selecione uma solicitação pendente.");
                 return;
             }
 
-            int id = Convert.ToInt32(Datapend.SelectedRows[0].Cells["id"].Value);
+            int id = Convert.ToInt32(DataPend.SelectedRows[0].Cells["id"].Value);
 
             using (var conn = Conexao.Conectar())
             {
@@ -118,29 +167,28 @@ namespace On_Bisc1
 
         private void ConfigurarColunasDataPend()
         {
-            Datapend.Columns.Clear();
+            DataPend.Columns.Clear();
 
-            Datapend.Columns.Add("ID", "ID");
-            Datapend.Columns["ID"].Visible = false;
+            DataPend.Columns.Add("ID", "ID");
+            DataPend.Columns["ID"].Visible = false;
 
-            Datapend.Columns.Add("Cliente", "Cliente");
+            DataPend.Columns.Add("Cliente", "Cliente");
 
-            Datapend.Columns.Add("DataSolicitacao", "Data da Solicitação");
+            DataPend.Columns.Add("DataSolicitacao", "Data da Solicitação");
 
-            Datapend.Columns.Add("Status", "Status");
+            DataPend.Columns.Add("Status", "Status");
 
             // Coluna de imagem (oculta)
             DataGridViewImageColumn imgCol = new DataGridViewImageColumn();
             imgCol.Name = "Imagem";
             imgCol.HeaderText = "Imagem";
             imgCol.Visible = false;
-            Datapend.Columns.Add(imgCol);
+            DataPend.Columns.Add(imgCol);
         }
 
         private void userControlMP_Load(object sender, EventArgs e)
         {
             CarregarSolicitacoes();
-            ConfigurarColunasDataPend();
         }
 
         private void btnAceitar_Click(object sender, EventArgs e)
@@ -155,9 +203,9 @@ namespace On_Bisc1
 
         private void btnVerImagem_Click(object sender, EventArgs e)
         {
-            if (Datapend.SelectedRows.Count > 0)
+            if (DataPend.SelectedRows.Count > 0)
             {
-                var imagemBytes = Datapend.SelectedRows[0].Cells["Imagem"].Value as byte[];
+                var imagemBytes = DataPend.SelectedRows[0].Cells["Imagem"].Value as byte[];
 
                 if (imagemBytes != null)
                 {
