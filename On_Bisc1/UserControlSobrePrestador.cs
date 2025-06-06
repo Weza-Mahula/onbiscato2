@@ -40,6 +40,17 @@ namespace On_Bisc1
         {
             txtBiografia.Text = string.IsNullOrWhiteSpace(texto) ? textoPadrao : texto;
         }
+        
+
+        private void textBoxBio_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void UserControlSobrePrestador_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

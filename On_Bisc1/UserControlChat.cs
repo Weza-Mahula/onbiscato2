@@ -18,7 +18,7 @@ namespace On_Bisc1
         private string nomePrestador;
         private Timer timerAtualizacao;
 
-        public userControlChat(int solicitacaoId, int prestadorId, string nomePrestador)
+        public userControlChat()
         {
             InitializeComponent();
             this.solicitacaoId = solicitacaoId;
@@ -27,7 +27,7 @@ namespace On_Bisc1
 
             if (solicitacaoId <= 0)
             {
-                MessageBox.Show("Erro: Nenhuma solicitação foi selecionada.");
+                MessageBox.Show("Aperte Ok se não for um Robô!");
                 return;
             }
 

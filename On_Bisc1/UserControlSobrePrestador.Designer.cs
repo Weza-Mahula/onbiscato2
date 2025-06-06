@@ -37,6 +37,7 @@
             this.textBoxBio.Name = "textBoxBio";
             this.textBoxBio.Size = new System.Drawing.Size(496, 20);
             this.textBoxBio.TabIndex = 0;
+            this.textBoxBio.TextChanged += new System.EventHandler(this.textBoxBio_TextChanged);
             // 
             // UserControlSobrePrestador
             // 
@@ -45,6 +46,7 @@
             this.Controls.Add(this.textBoxBio);
             this.Name = "UserControlSobrePrestador";
             this.Size = new System.Drawing.Size(721, 505);
+            this.Load += new System.EventHandler(this.UserControlSobrePrestador_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

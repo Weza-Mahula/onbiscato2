@@ -43,15 +43,13 @@ namespace On_Bisc1
             idPrestador = id;
             this.nomePrestador = nome;
             idUsuario = SessaoUsuario.UsuarioId;
+
+            // Inicializações dos UserControls
             userControlHome = new userControlHome();
             userControlMP = new userControlMP();
             userControlServicos = new userControlServicos();
             userControlPerfil = new userControlPerfil();
-            //int solicitacaoId = Convert.ToInt32(DataPend.SelectedRows[0].Cells["id"].Value);
-
-
-            //userControlChat chat = new userControlChat(solicitacaoId, prestadorId, nomePrestador); // ✅ certo
-
+            userControlChat = new userControlChat(); // ← Aqui estava faltando
 
             // Adiciona ao formulário
             AdicionarUserControls();
@@ -69,15 +67,19 @@ namespace On_Bisc1
         userControlChat
             };
 
-            foreach (var uc in controles)
+            if (controles != null && controles.Any())
             {
-                uc.Size = new Size(920, 603);
-                uc.Location = new Point(304, 134);
-                uc.Margin = new Padding(3);
-                uc.Visible = false;
-                this.Controls.Add(uc);
+                foreach (var uc in controles)
+                {
+                    uc.Size = new Size(920, 603);
+                    uc.Location = new Point(304, 134);
+                    uc.Margin = new Padding(3);
+                    uc.Visible = false;
+                    this.Controls.Add(uc);
+                }
             }
         }
+
 
 
         private void ExibirFotoGrande()
@@ -363,7 +365,7 @@ namespace On_Bisc1
 
         private void btnServicos_Click(object sender, EventArgs e)
         {
-           // AlternarUserControl(userControlServicos, btnServicos);
+            
         }
 
         private void btnPerfil_Click(object sender, EventArgs e)
@@ -387,41 +389,15 @@ namespace On_Bisc1
 
         }
 
-       /*public void guna2Button1_Click_2(object sender, EventArgs e)
+       public void guna2Button1_Click_2(object sender, EventArgs e)
          {
-            if (DataPend.SelectedRows.Count == 0)
-            {
-                MessageBox.Show("Selecione uma solicitação para abrir o chat.");
-                return;
-            }
-
-            int solicitacaoId = Convert.ToInt32(Datapend.SelectedRows[0].Cells["id"].Value);
-
+            AlternarUserControl(userControlChat, btnChat);
             // Substitua pelas variáveis reais do prestador logado:
             int prestadorId = idPrestador;
             // PASSO: Obter o nome do prestador a partir do banco ou sessão
             string nomePrestador = "Nome do Prestador"; // ← Substitui isso com o valor real
             //lblNome.Text = nomePrestador;
-
-
-
-            userControlChat chat = new userControlChat(solicitacaoId, prestadorId, nomePrestador)
-            {
-                Name = "chatAtivo",
-                Location = new Point(304, 134),
-                Size = new Size(920, 603),
-                Margin = new Padding(3)
-            };
-
-            // Remove qualquer chat antigo
-            Control antigo = this.Controls.Find("chatAtivo", true).FirstOrDefault();
-            if (antigo != null)
-                this.Controls.Remove(antigo);
-
-            this.Controls.Add(chat);
-            chat.BringToFront();
-
-        }*/
+        }
 
     }
 }

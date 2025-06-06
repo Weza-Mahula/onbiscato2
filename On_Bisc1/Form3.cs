@@ -128,9 +128,12 @@ namespace On_Bisc1
 
         private void guna2Button6_Click(object sender, EventArgs e)
         {
-            Form1 form = new Form1();
-            form.Show();
-            this.Hide();
+            if (MessageBox.Show("Deseja realmente terminar a sessão?", "Confirmação", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Form1 form = new Form1();
+                form.Show();
+                this.Hide();
+            }
         }
 
         private void guna2Button4_Click(object sender, EventArgs e)

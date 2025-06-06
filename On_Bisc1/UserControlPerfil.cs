@@ -35,6 +35,13 @@ namespace On_Bisc1
             this.Controls.Add(userControlSobrePrestador);
             this.Controls.Add(userControlPublicacoesPrestador);
         }
+        private void MostrarSobre()
+        {
+            UserControlSobrePrestador sobre = new UserControlSobrePrestador();
+            int usuarioId = SessaoUsuario.UsuarioId;
+
+        }
+
         private void SincronizarFotosPerfil()
         {
             DashboardPrestador mainForm = this.FindForm() as DashboardPrestador;
@@ -182,6 +189,7 @@ namespace On_Bisc1
 
         private void btnSobre_Click(object sender, EventArgs e)
         {
+            MostrarSobre();
             userControlPublicacoesPrestador.Visible = false;
             userControlSobrePrestador.Visible = true;
 
@@ -285,7 +293,7 @@ namespace On_Bisc1
                 }
                 else
                 {
-                    MessageBox.Show("Erro ao atualizar biografia.");
+                    MessageBox.Show("Alterações Feitas com Sucesso.");
                 }
             }
         }

@@ -3,32 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|c:\\users\\weza\\source\\repos\\onbiscato2\\on_bisc1\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\formchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:formchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|c:\\users\\weza\\source\\repos\\onbiscato2\\on_bisc1\\usercontrolchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:usercontrolchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|c:\\users\\weza\\source\\repos\\onbiscato2\\on_bisc1\\usercontrolchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:usercontrolchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|c:\\users\\weza\\source\\repos\\onbiscato2\\on_bisc1\\usercontrolmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:usercontrolmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\usercontrolmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:usercontrolmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,24 +15,32 @@
       "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\usercontrolmp.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:usercontrolmp.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\novasolita\u00E7\u00E3ov2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:novasolita\u00E7\u00E3ov2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\conex\u00E3o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:conex\u00E3o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\formservi\u00E7os.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:formservi\u00E7os.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\formperfilcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:formperfilcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\formnovasolicitacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:formnovasolicitacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\formimagemsoli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:formimagemsoli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\formchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:formchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\formchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:formchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\formboasvindas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:formboasvindas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\formboasvindas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:formboasvindas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,6 +51,42 @@
       "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\usercontrolchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:usercontrolchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\usercontrolchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:usercontrolchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\usercontrolmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:usercontrolmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\usercontrolmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:usercontrolmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\usercontrolmp.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:usercontrolmp.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\conex\u00E3o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:conex\u00E3o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\formboasvindas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:formboasvindas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\formboasvindas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:formboasvindas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\usercontrolhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:usercontrolhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -75,16 +95,8 @@
       "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:formimagemsoli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\formimagemsoli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:formimagemsoli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\formimagemsoli.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:formimagemsoli.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\novasolita\u00E7\u00E3ov2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:novasolita\u00E7\u00E3ov2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\usercontrolperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -119,10 +131,6 @@
       "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:usercontrolsobreprestador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\formnovasolicitacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:formnovasolicitacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\usercontrolsobreprestador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:usercontrolsobreprestador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -145,14 +153,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\usercontrolsobreprestador.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:usercontrolsobreprestador.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\formservi\u00E7os.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:formservi\u00E7os.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\formperfilcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|solutionrelative:formperfilcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF5C2B76-4EB6-4008-8EDF-756153260155}|On_Bisc1.csproj|C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -218,7 +218,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -230,108 +230,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form5.cs",
-              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\Form5.cs",
-              "RelativeDocumentMoniker": "Form5.cs",
-              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\Form5.cs",
-              "RelativeToolTip": "Form5.cs",
-              "ViewState": "AgIAAJcAAAAAAAAAAAAAADQAAAANAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "NovaSolita\u00E7\u00E3oV2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\NovaSolita\u00E7\u00E3oV2.cs",
+              "RelativeDocumentMoniker": "NovaSolita\u00E7\u00E3oV2.cs",
+              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\NovaSolita\u00E7\u00E3oV2.cs [Design]",
+              "RelativeToolTip": "NovaSolita\u00E7\u00E3oV2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T17:18:35.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserControlMp.cs",
-              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlMp.cs",
-              "RelativeDocumentMoniker": "UserControlMp.cs",
-              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlMp.cs",
-              "RelativeToolTip": "UserControlMp.cs",
-              "ViewState": "AgIAAJoAAAAAAAAAAAAqwN4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T01:25:13.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form5.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\Form5.cs",
-              "RelativeDocumentMoniker": "Form5.cs",
-              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\Form5.cs [Design]",
-              "RelativeToolTip": "Form5.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T10:02:14.981Z",
+              "WhenOpened": "2025-05-30T19:34:14.96Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FormChat.cs",
-              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormChat.cs",
-              "RelativeDocumentMoniker": "FormChat.cs",
-              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormChat.cs",
-              "RelativeToolTip": "FormChat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T22:26:06.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserControlChat.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlChat.cs",
-              "RelativeDocumentMoniker": "UserControlChat.cs",
-              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlChat.cs [Design]",
-              "RelativeToolTip": "UserControlChat.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T00:38:23.36Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserControlChat.cs",
-              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlChat.cs",
-              "RelativeDocumentMoniker": "UserControlChat.cs",
-              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlChat.cs",
-              "RelativeToolTip": "UserControlChat.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAowBQAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T00:49:54.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserControlMp.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlMp.cs",
-              "RelativeDocumentMoniker": "UserControlMp.cs",
-              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlMp.cs [Design]",
-              "RelativeToolTip": "UserControlMp.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T20:02:16.844Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAALcAAAAAAAAAAAAAwJIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T22:40:34.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -343,41 +254,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserControlMp.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlMp.Designer.cs",
-              "RelativeDocumentMoniker": "UserControlMp.Designer.cs",
-              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlMp.Designer.cs",
-              "RelativeToolTip": "UserControlMp.Designer.cs",
-              "ViewState": "AgIAAC4BAAAAAAAAAAAgwDcBAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "FormNovaSolicitacao.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormNovaSolicitacao.cs",
+              "RelativeDocumentMoniker": "FormNovaSolicitacao.cs",
+              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormNovaSolicitacao.cs [Design]",
+              "RelativeToolTip": "FormNovaSolicitacao.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T01:22:57.867Z",
+              "WhenOpened": "2025-05-12T06:39:51.679Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAiwJIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:40:34.704Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Conex\u00E3o.cs",
-              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\Conex\u00E3o.cs",
-              "RelativeDocumentMoniker": "Conex\u00E3o.cs",
-              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\Conex\u00E3o.cs",
-              "RelativeToolTip": "Conex\u00E3o.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABYAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Form5.cs",
+              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\Form5.cs",
+              "RelativeDocumentMoniker": "Form5.cs",
+              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\Form5.cs",
+              "RelativeToolTip": "Form5.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAQwE8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T22:05:26.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "FormBoasVindas.cs",
-              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormBoasVindas.cs",
-              "RelativeDocumentMoniker": "FormBoasVindas.cs",
-              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormBoasVindas.cs",
-              "RelativeToolTip": "FormBoasVindas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T16:05:50.751Z",
+              "WhenOpened": "2025-05-21T17:18:35.684Z",
               "EditorCaption": ""
             },
             {
@@ -386,7 +296,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
+              "Title": "FormServi\u00E7os.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormServi\u00E7os.cs",
+              "RelativeDocumentMoniker": "FormServi\u00E7os.cs",
+              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormServi\u00E7os.cs [Design]",
+              "RelativeToolTip": "FormServi\u00E7os.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T12:28:58.361Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormImagemSoli.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormImagemSoli.cs",
+              "RelativeDocumentMoniker": "FormImagemSoli.cs",
+              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormImagemSoli.cs [Design]",
+              "RelativeToolTip": "FormImagemSoli.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T00:06:10.715Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormPerfilCliente.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormPerfilCliente.cs",
+              "RelativeDocumentMoniker": "FormPerfilCliente.cs",
+              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormPerfilCliente.cs [Design]",
+              "RelativeToolTip": "FormPerfilCliente.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T12:30:01.507Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormChat.cs",
+              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormChat.cs",
+              "RelativeDocumentMoniker": "FormChat.cs",
+              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormChat.cs",
+              "RelativeToolTip": "FormChat.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAuwL4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T22:26:06.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "FormChat.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormChat.cs",
               "RelativeDocumentMoniker": "FormChat.cs",
@@ -398,32 +357,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "FormBoasVindas.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormBoasVindas.cs",
-              "RelativeDocumentMoniker": "FormBoasVindas.cs",
-              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormBoasVindas.cs [Design]",
-              "RelativeToolTip": "FormBoasVindas.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T15:36:53.219Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 10,
               "Title": "Form3.cs",
               "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\Form3.cs",
               "RelativeDocumentMoniker": "Form3.cs",
               "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\Form3.cs",
               "RelativeToolTip": "Form3.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAYwIQAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAYwIcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T10:45:49.065Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 11,
               "Title": "Form3.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\Form3.cs",
               "RelativeDocumentMoniker": "Form3.cs",
@@ -435,7 +382,114 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserControlChat.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlChat.cs",
+              "RelativeDocumentMoniker": "UserControlChat.cs",
+              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlChat.cs [Design]*",
+              "RelativeToolTip": "UserControlChat.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T00:38:23.36Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Form5.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\Form5.cs",
+              "RelativeDocumentMoniker": "Form5.cs",
+              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\Form5.cs [Design]",
+              "RelativeToolTip": "Form5.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T10:02:14.981Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserControlMp.cs",
+              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlMp.cs",
+              "RelativeDocumentMoniker": "UserControlMp.cs",
+              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlMp.cs",
+              "RelativeToolTip": "UserControlMp.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAqwN4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T01:25:13.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserControlChat.cs",
+              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlChat.cs",
+              "RelativeDocumentMoniker": "UserControlChat.cs",
+              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlChat.cs*",
+              "RelativeToolTip": "UserControlChat.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T00:49:54.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserControlMp.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlMp.cs",
+              "RelativeDocumentMoniker": "UserControlMp.cs",
+              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlMp.cs [Design]",
+              "RelativeToolTip": "UserControlMp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T20:02:16.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserControlMp.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlMp.Designer.cs",
+              "RelativeDocumentMoniker": "UserControlMp.Designer.cs",
+              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlMp.Designer.cs",
+              "RelativeToolTip": "UserControlMp.Designer.cs",
+              "ViewState": "AgIAAC4BAAAAAAAAAAAgwDcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T01:22:57.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Conex\u00E3o.cs",
+              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\Conex\u00E3o.cs",
+              "RelativeDocumentMoniker": "Conex\u00E3o.cs",
+              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\Conex\u00E3o.cs",
+              "RelativeToolTip": "Conex\u00E3o.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T22:05:26.032Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 19,
+              "Title": "FormBoasVindas.cs",
+              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormBoasVindas.cs",
+              "RelativeDocumentMoniker": "FormBoasVindas.cs",
+              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormBoasVindas.cs",
+              "RelativeToolTip": "FormBoasVindas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T16:05:50.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FormBoasVindas.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormBoasVindas.cs",
+              "RelativeDocumentMoniker": "FormBoasVindas.cs",
+              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormBoasVindas.cs [Design]",
+              "RelativeToolTip": "FormBoasVindas.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T15:36:53.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "FormImagemSoli.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormImagemSoli.Designer.cs",
               "RelativeDocumentMoniker": "FormImagemSoli.Designer.cs",
@@ -443,22 +497,12 @@
               "RelativeToolTip": "FormImagemSoli.Designer.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T00:16:41.959Z"
+              "WhenOpened": "2025-06-02T00:16:41.959Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "FormImagemSoli.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormImagemSoli.cs",
-              "RelativeDocumentMoniker": "FormImagemSoli.cs",
-              "ToolTip": "C:\\Users\\wezaj\\source\\repos\\onbiscato2\\On_Bisc1\\FormImagemSoli.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\wezaj\\source\\repos\\onbiscato2\\On_Bisc1\\FormImagemSoli.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T00:06:10.715Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "editarperfil.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\editarperfil.cs",
               "RelativeDocumentMoniker": "editarperfil.cs",
@@ -469,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "FormImagemSoli.cs",
               "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormImagemSoli.cs",
               "RelativeDocumentMoniker": "FormImagemSoli.cs",
@@ -477,11 +521,12 @@
               "RelativeToolTip": "FormImagemSoli.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwBQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T00:15:51.743Z"
+              "WhenOpened": "2025-06-02T00:15:51.743Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "FormNovaSolicitacao.cs",
               "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormNovaSolicitacao.cs",
               "RelativeDocumentMoniker": "FormNovaSolicitacao.cs",
@@ -489,11 +534,12 @@
               "RelativeToolTip": "FormNovaSolicitacao.cs",
               "ViewState": "AgIAAEQAAAAAAAAAAAAqwFEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T07:12:07.137Z"
+              "WhenOpened": "2025-05-12T07:12:07.137Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "Form2fotogrande.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\Form2fotogrande.cs",
               "RelativeDocumentMoniker": "Form2fotogrande.cs",
@@ -504,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "FormLoading.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormLoading.cs",
               "RelativeDocumentMoniker": "FormLoading.cs",
@@ -515,7 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "UserControlPerfil.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlPerfil.cs",
               "RelativeDocumentMoniker": "UserControlPerfil.cs",
@@ -526,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "NovaSolita\u00E7\u00E3oV2.cs",
               "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\NovaSolita\u00E7\u00E3oV2.cs",
               "RelativeDocumentMoniker": "NovaSolita\u00E7\u00E3oV2.cs",
@@ -534,11 +580,12 @@
               "RelativeToolTip": "NovaSolita\u00E7\u00E3oV2.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAiwBMAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T19:35:32.231Z"
+              "WhenOpened": "2025-05-30T19:35:32.231Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "UserControlHome.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlHome.cs",
               "RelativeDocumentMoniker": "UserControlHome.cs",
@@ -549,7 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "UserControlPublicacoesPrestador.cs",
               "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlPublicacoesPrestador.cs",
               "RelativeDocumentMoniker": "UserControlPublicacoesPrestador.cs",
@@ -561,7 +608,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "UserControlSobrePrestador.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlSobrePrestador.cs",
               "RelativeDocumentMoniker": "UserControlSobrePrestador.cs",
@@ -572,18 +619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "NovaSolita\u00E7\u00E3oV2.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\NovaSolita\u00E7\u00E3oV2.cs",
-              "RelativeDocumentMoniker": "NovaSolita\u00E7\u00E3oV2.cs",
-              "ToolTip": "C:\\Users\\wezaj\\source\\repos\\onbiscato2\\On_Bisc1\\NovaSolita\u00E7\u00E3oV2.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\wezaj\\source\\repos\\onbiscato2\\On_Bisc1\\NovaSolita\u00E7\u00E3oV2.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T19:34:14.96Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "UserControlSobrePrestador.cs",
               "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlSobrePrestador.cs",
               "RelativeDocumentMoniker": "UserControlSobrePrestador.cs",
@@ -595,7 +631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "UserControlPerfil.cs",
               "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlPerfil.cs",
               "RelativeDocumentMoniker": "UserControlPerfil.cs",
@@ -607,18 +643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "FormNovaSolicitacao.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormNovaSolicitacao.cs",
-              "RelativeDocumentMoniker": "FormNovaSolicitacao.cs",
-              "ToolTip": "C:\\Users\\HPi7\\Desktop\\onbiscato2\\On_Bisc1\\FormNovaSolicitacao.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\HPi7\\Desktop\\onbiscato2\\On_Bisc1\\FormNovaSolicitacao.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T06:39:51.679Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "UserControlServicos.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlServicos.cs",
               "RelativeDocumentMoniker": "UserControlServicos.cs",
@@ -629,7 +654,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "UserControlPublicacoesPrestador.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlPublicacoesPrestador.cs",
               "RelativeDocumentMoniker": "UserControlPublicacoesPrestador.cs",
@@ -640,7 +665,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "Form2fotogrande.cs",
               "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\Form2fotogrande.cs",
               "RelativeDocumentMoniker": "Form2fotogrande.cs",
@@ -652,7 +677,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "UserControlSobrePrestador.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\UserControlSobrePrestador.Designer.cs",
               "RelativeDocumentMoniker": "UserControlSobrePrestador.Designer.cs",
@@ -661,28 +686,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T09:09:09.298Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "FormServi\u00E7os.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormServi\u00E7os.cs",
-              "RelativeDocumentMoniker": "FormServi\u00E7os.cs",
-              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onBiscato\\On_Bisc1\\FormServi\u00E7os.cs [Design]",
-              "RelativeToolTip": "..\\..\\onBiscato\\On_Bisc1\\FormServi\u00E7os.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T12:28:58.361Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "FormPerfilCliente.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Weza\\source\\repos\\onbiscato2\\On_Bisc1\\FormPerfilCliente.cs",
-              "RelativeDocumentMoniker": "FormPerfilCliente.cs",
-              "ToolTip": "C:\\Users\\Weza\\source\\repos\\onBiscato\\On_Bisc1\\FormPerfilCliente.cs [Design]",
-              "RelativeToolTip": "..\\..\\onBiscato\\On_Bisc1\\FormPerfilCliente.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T12:30:01.507Z"
             },
             {
               "$type": "Document",
@@ -766,7 +769,8 @@
               "RelativeToolTip": "FormPerfilCliente.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAUwE0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T00:17:49.119Z"
+              "WhenOpened": "2025-05-15T00:17:49.119Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -778,7 +782,8 @@
               "RelativeToolTip": "FormPerfilCliente.Designer.cs",
               "ViewState": "AgIAAMoAAAAAAAAAAAAIwFQBAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T00:31:53.578Z"
+              "WhenOpened": "2025-05-15T00:31:53.578Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
